@@ -37,6 +37,8 @@ namespace Ejercicio_1
                 return;
             }
 
+            errorProvider1.Clear();
+
             decimal numero1 = Convert.ToDecimal(Numero1textBox.Text);
             decimal numero2 = Convert.ToDecimal(Numero2textBox.Text);
 
