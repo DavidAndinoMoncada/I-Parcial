@@ -57,6 +57,8 @@
             // 
             // Numero1textBox1
             // 
+            this.Numero1textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.Numero1textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Numero1textBox1.Location = new System.Drawing.Point(202, 96);
             this.Numero1textBox1.Name = "Numero1textBox1";
             this.Numero1textBox1.Size = new System.Drawing.Size(170, 22);
