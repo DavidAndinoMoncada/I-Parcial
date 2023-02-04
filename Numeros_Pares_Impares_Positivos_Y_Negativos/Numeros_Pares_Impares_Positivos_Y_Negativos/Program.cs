@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio_1
+namespace Numeros_Pares_Impares_Positivos_Y_Negativos
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Ejercicio_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejercicio_4 ());
+            Application.Run(new Form1());
         }
     }
 }
