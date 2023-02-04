@@ -16,7 +16,7 @@ namespace Ejercicio_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejercicio_2());
+            Application.Run(new Ejercicio_3());
         }
     }
 }
