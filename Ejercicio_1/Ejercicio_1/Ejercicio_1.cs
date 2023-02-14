@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Ejercicio_1
 {
-    public partial class Ejercicio1 : Form
+    public partial class Ejercicio_1 : Form
     {
         decimal SumaTotal;
 
-        public Ejercicio1()
+        public Ejercicio_1()
         {
             InitializeComponent();
         }
