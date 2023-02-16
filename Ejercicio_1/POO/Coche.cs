@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO
 {
-    internal class Coche
+    public class Coche
     {
         //Atributos
 
@@ -17,12 +17,12 @@ namespace POO
         public string Marca
         {
 
-            get { return Marca; }
+            get { return marca; }
             set { marca = value; }
 
         }
 
-        public string Modelo { get => Modelo; set => Modelo = value; }
+        public string Modelo { get => modelo; set => modelo = value; }
         public decimal Precio { get; set; }
         public int Kilometros { get; set; }
 
@@ -45,7 +45,7 @@ namespace POO
         //Metodos
         public string DevolverDatosBasicos()
         {
-            return "Marca" + Marca + " Modelo " + Modelo + " Precio " + Precio;
+            return "Marca: " + Marca + " Modelo: " + Modelo + " Precio: " + Precio;
         }
 
 

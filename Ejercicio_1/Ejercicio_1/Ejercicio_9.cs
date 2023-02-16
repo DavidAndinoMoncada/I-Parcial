@@ -29,13 +29,16 @@ namespace Ejercicio_1
             string marca = MarcatextBox.Text;
             string modelo = ModelotextBox.Text;
             decimal precio;
+            
             if (PreciotextBox.Text == string.Empty)
             {
                 precio = 0;
             }
-            else {
+            else
+            {
                 precio = Convert.ToDecimal(PreciotextBox.Text);
             }
+            
             int kilometros = KilometrostextBox.Text == string.Empty ? 0 : Convert.ToInt32(KilometrostextBox.Text);
 
             miCoche = new Coche();
@@ -71,5 +74,9 @@ namespace Ejercicio_1
 
         }
 
+        private void Ejercicio_9_Load()
+        {
+            MarcatextBox.Focus();
+        }
     }
 }
